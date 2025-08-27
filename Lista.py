@@ -27,6 +27,22 @@ while escolha_menu!=4:
             print("Sua lista atual tem:",lista_formatada)
             print("Deseja adicionar mais um item?\n1-Sim\n2-Não\n")
             escolha=int(input("Escolha a opção desejada: "))
+    #Editar itens na lista
+    elif escolha_menu==2:
+        quer_editar=1
+        while quer_editar==1:
+            print("Qual item você gostaria de editar?")
+            for posicao, item in enumerate(lista_compras):
+                print(posicao+1,item)
+            escolha_do_usuario=int(input("Digite o número do item: "))
+            indice_real=escolha_do_usuario-1
+            lista_compras[indice_real]=input("Digite o nome do item para editá-lo: ")
+            lista_formatada=", ".join(lista_compras)
+            print("Produto editado com sucesso!")
+            print("A sua lista de compras atual é:",lista_formatada)
+            print("Deseja editar outro item?\n1-Sim\n2-Não, voltar ao menu")
+            quer_editar=int(input("Escolha a opção desejada: "))
+
 
 lista_formatada=", ".join(lista_compras)
     
