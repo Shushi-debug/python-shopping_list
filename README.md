@@ -1,4 +1,4 @@
-🛒 # Lista de Compras em Python 🇧🇷
+#**Lista de Compras em Python**🛒🇧🇷 
    
 O exercício era simples: criar um programa que permitia que o usuário criasse sua lista de compras, fonecendo quantos itens ele queria e em seguida quais eram estes itens, sendo então, armazenados em lista e depois impressos na tela.
 Mas eu queria mais 🤓
@@ -8,7 +8,7 @@ Este projeto começou como um exercício básico de Python, mas eu vi uma oportu
    
 É uma demonstração prática de manipulação de listas, laços de repetição e input do usuário em Python.
    
-✅ ## Funcionalidades
+##✅**Funcionalidades**
 O script oferece as seguintes operações para gerenciar a lista de compras:
 
 Adicionar Itens: Permite a inserção de novos itens na lista.
@@ -19,10 +19,10 @@ Excluir Itens: Remove um item específico da lista para mantê-la atualizada.
 
 Exibir a Lista: Mostra todos os itens atuais de forma organizada no terminal.
    
-💻 ## Tecnologias Utilizadas
+##💻**Tecnologias Utilizadas**
 🐍 Python 3: Projeto desenvolvido inteiramente com Python puro, sem a necessidade de bibliotecas externas.
 
-❤️ ## Muito obrigada!
+##❤️**Muito obrigada!**
 Desenvolvido por: Shushi-debug em agosto/2025!🍓
     
     
