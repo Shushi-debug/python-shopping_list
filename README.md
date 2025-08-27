@@ -1,4 +1,4 @@
- # 🛒 **Lista de Compras em Python**🇧🇷 
+ # 🛒 **Lista de Compras em Python** 🇧🇷 
    
 O exercício era simples: criar um programa que permitia que o usuário criasse sua lista de compras, fonecendo quantos itens ele queria e em seguida quais eram estes itens, sendo então, armazenados em lista e depois impressos na tela.
 Mas eu queria mais 🤓
