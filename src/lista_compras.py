@@ -51,22 +51,27 @@ while escolha_menu!=4:
     elif escolha_menu==3:
         quer_excluir=1
         if len(lista_compras)==0:
-                print("Não há itens para excluir!")
-                print("Voltando ao menu:")
-                escolha_menu=2
+            print("Não há itens para excluir!")
+            print("Voltando ao menu:")
+            escolha_menu=2
         elif len(lista_compras)>=1:
-                print("Qual item você deseja excluir?")
-                for posicao, item in enumerate(lista_compras):
-                    print(posicao+1,item)
-                    escolha_do_usuario=int(input("Digite o número do item:"))
-                    indice_real=escolha_do_usuario-1
-                    lista_compras.pop(indice_real)
-                    lista_formatada=", ".join(lista_compras)
-                    print("Produto excluído com sucesso!")
-                    print("A sua lista de compras atual é:",lista_formatada)
-                    print("Deseja excluir outro item?\n1-Sim\n2-Não, voltar ao menu")
-                    quer_excluir=int(input("Escolha a opção desejada: "))
-                
+            print("Qual item você deseja excluir?")
+            for posicao, item in enumerate(lista_compras):
+                print(posicao+1,item)
+            escolha_do_usuario=int(input("Digite o número do item:"))
+            indice_real=escolha_do_usuario-1
+            lista_compras.pop(indice_real)
+            lista_formatada=", ".join(lista_compras)
+            print("Produto excluído com sucesso!")
+            if len(lista_compras)>=1:                    
+                print("A sua lista de compras atual é:",lista_formatada)
+                print("Deseja excluir outro item?\n1-Sim\n2-Não, voltar ao menu")
+                quer_excluir=int(input("Escolha a opção desejada: "))
+            else:
+                print("A sua lista de compras atual está vazia!")
+                print("Não há mais itens para excluir!")
+                print("Voltando ao menu...")
+                escolha_menu=2
 
 lista_formatada=", ".join(lista_compras)
     
